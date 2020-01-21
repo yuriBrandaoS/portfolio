@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     <div class="titles">
+      <i class="far fa-dizzy fa-10x floa t-right"></i>
       <div class="titles-width">
         <h1 class="display-2 text-md-left">Yuri Brandão</h1>
         <h2 class="display-6 text-md-left">Web Developer</h2>
       </div>
-        <img class="img-banner" alt="img-portfolio" src="../assets/code.svg">
     </div>
-    <Footer :showArrowRight="true" :linkLeft="'/about'" :linkRight="'/about'" />
+    <Footer :linkLeft="'/contact'" :linkRight="'/about'" />
   </div>
 </template>
 

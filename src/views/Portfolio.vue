@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <h1>Sobre mim</h1>
-    <Footer :linkRight="'/portfolio'" />
+    <h1>Portfólio</h1>
+    <Footer :linkLeft="'/about'" :linkRight="'/contact'" />
   </div>
 </template>
 

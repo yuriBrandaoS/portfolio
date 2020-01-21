@@ -2,9 +2,10 @@
   <div id="app">
     <div class="container">
       <div id="nav">
+        <router-link to="/contact">Contacts</router-link>
+        <router-link to="/portfolio">Portfolio</router-link>
         <router-link to="/about">About me</router-link>
         <router-link to="/">Home</router-link>
-
       </div>
       <transition name="fade">
         <router-view/>
